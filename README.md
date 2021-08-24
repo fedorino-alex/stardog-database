@@ -10,5 +10,5 @@ docker build -t stardog-local:latest .
 ## Run docker image
 
 ```{bash}
-sudo docker run -it -v /data:/var/opt/stardog -v /license:/license -p 5820:5820 stardog-local:latest
+docker run -it -v /data:/var/opt/stardog -v /license:/license -p 5820:5820 stardog-local:latest
 ```
